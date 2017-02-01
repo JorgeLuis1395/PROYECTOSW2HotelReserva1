@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SisResModelStoreContainer" CdmEntityContainer="SisResEntities">
+    <EntitySetMapping Name="GEN_Clientes">
+      <EntityTypeMapping TypeName="SisResModel.GEN_Clientes">
+        <MappingFragment StoreEntitySet="GEN_Clientes">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="IdTipoCliente" ColumnName="IdTipoCliente" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Fono" ColumnName="Fono" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="ApMaterno" ColumnName="ApMaterno" />
+          <ScalarProperty Name="ApPaterno" ColumnName="ApPaterno" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="DV" ColumnName="DV" />
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEN_Rol">
+      <EntityTypeMapping TypeName="SisResModel.GEN_Rol">
+        <MappingFragment StoreEntitySet="GEN_Rol">
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEN_TipoCliente">
+      <EntityTypeMapping TypeName="SisResModel.GEN_TipoCliente">
+        <MappingFragment StoreEntitySet="GEN_TipoCliente">
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TipoCliente" ColumnName="TipoCliente" />
+          <ScalarProperty Name="IdTipoCliente" ColumnName="IdTipoCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GEN_Usuarios">
+      <EntityTypeMapping TypeName="SisResModel.GEN_Usuarios">
+        <MappingFragment StoreEntitySet="GEN_Usuarios">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="IdRol" ColumnName="IdRol" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Fono" ColumnName="Fono" />
+          <ScalarProperty Name="ApMaterno" ColumnName="ApMaterno" />
+          <ScalarProperty Name="ApPaterno" ColumnName="ApPaterno" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="DV" ColumnName="DV" />
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HAB_Habitaciones">
+      <EntityTypeMapping TypeName="SisResModel.HAB_Habitaciones">
+        <MappingFragment StoreEntitySet="HAB_Habitaciones">
+          <ScalarProperty Name="Reserva" ColumnName="Reserva" />
+          <ScalarProperty Name="Disponible" ColumnName="Disponible" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="IdTipoHabitacion" ColumnName="IdTipoHabitacion" />
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HAB_HabitacionImagenes">
+      <EntityTypeMapping TypeName="SisResModel.HAB_HabitacionImagenes">
+        <MappingFragment StoreEntitySet="HAB_HabitacionImagenes">
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HAB_TipoHabitacion">
+      <EntityTypeMapping TypeName="SisResModel.HAB_TipoHabitacion">
+        <MappingFragment StoreEntitySet="HAB_TipoHabitacion">
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TipoHabitacion" ColumnName="TipoHabitacion" />
+          <ScalarProperty Name="IdTipoHabitacion" ColumnName="IdTipoHabitacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RES_DetalleReserva">
+      <EntityTypeMapping TypeName="SisResModel.RES_DetalleReserva">
+        <MappingFragment StoreEntitySet="RES_DetalleReserva">
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+          <ScalarProperty Name="IdReserva" ColumnName="IdReserva" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RES_ReservaHabitacion">
+      <EntityTypeMapping TypeName="SisResModel.RES_ReservaHabitacion">
+        <MappingFragment StoreEntitySet="RES_ReservaHabitacion">
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="DiasReserva" ColumnName="DiasReserva" />
+          <ScalarProperty Name="HoraFechaRes" ColumnName="HoraFechaRes" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+          <ScalarProperty Name="RUTCliente" ColumnName="RUTCliente" />
+          <ScalarProperty Name="RUTUsuario" ColumnName="RUTUsuario" />
+          <ScalarProperty Name="IdReserva" ColumnName="IdReserva" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SER_Servicios">
+      <EntityTypeMapping TypeName="SisResModel.SER_Servicios">
+        <MappingFragment StoreEntitySet="SER_Servicios">
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Servicio" ColumnName="Servicio" />
+          <ScalarProperty Name="IdServicio" ColumnName="IdServicio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
