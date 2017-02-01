@@ -38,115 +38,89 @@
     </script>
     <h3>&nbsp;</h3>
     <h3><asp:Label ID="Label14" runat="server" Font-Size="X-Large" aling="center" Text="RESERVA DEL HOTEL ATACAMES 2: "></asp:Label>
-    <p>&nbsp;</p>
-    <p></p>
-    <p>
-        <h23><font size="3">
-        <asp:Label ID="Label15" runat="server" Font-Size="Large" Text="Tipo de Identificacion:"></asp:Label>
-&nbsp;&nbsp;&nbsp;
-        <select name="cedula0" style="width: 145px">
-            <option value="1">Seleccionar....</option>
-            <option value="2">Pasaporte</option>
-            <option value="3">Cédula Identidad</option>
-       </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label16" runat="server" Font-Size="Large" Text="N°Identificación"></asp:Label>
-        <asp:TextBox ID="TextBox10" runat="server" Width="165px"></asp:TextBox>
+         
+        <p>
+          
+        </p>
+     <p>
+     <asp:Label ID="Label2" runat="server" Font-Size="Small" Text="Nombre:"></asp:Label>
+         <asp:TextBox ID="TextBox2" runat="server" Width="292px" ValidateRequestMode="Enabled" Font-Size="Small"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <asp:Label ID="Label8" runat="server" Font-Size="Small" Text="Apellido:"></asp:Label>&nbsp;<asp:TextBox ID="TextBox3" runat="server" Width="261px" Font-Size="Small"></asp:TextBox>
+        </p>
+     <p>
+         <asp:Label ID="Label1" runat="server" Font-Size="Small" Text="Teléfono: "></asp:Label>
+         <asp:TextBox ID="TextBox4" runat="server" Width="294px" Font-Size="Small"></asp:TextBox>
+         </p>
+        <p>
+    <asp:Label ID="Label3" runat="server" Font-Size="Small" Text="Dirección:"></asp:Label>
+        <asp:TextBox ID="TextBox5" runat="server" Width="296px" Font-Size="Small"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Label ID="Label4" runat="server" Font-Size="Small" Text="Ciudad: "></asp:Label>
+            &nbsp;<asp:TextBox ID="TextBox6" runat="server" Width="172px" Font-Size="Small"></asp:TextBox>
+            &nbsp; &nbsp;
     </p>
-   </font>
-   </h23>
-    <h7 style="width: 865px"><Font Size="3"> .</Font></h7>
-    <h3 style="width: 995px"><Font Size="3">Nombres:</Font>
-        <asp:TextBox ID="TextBox1" runat="server" Width="1000px" Font-Size="Large"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h3>
-   
-    <h7 style="width: 865px"> .</h7>
-     <h4 style="width: 865px">
-         <asp:Label ID="Label1" runat="server" Font-Size="Large" Text="Teléfono: "></asp:Label>
-         <asp:TextBox ID="TextBox2" runat="server"  Width="237px"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         </h4> 
-         <p></p>
-    <p></p>
-     <h6 style="width: 865px">.</h6>
-    <h5 style="width: 995px"/>
-    <asp:Label ID="Label3" runat="server" Font-Size="Large" Text="Dirección:"></asp:Label>
-    <asp:TextBox ID="TextBox4" runat="server"  Width="365px" Font-Size="Large"></asp:TextBox>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Label ID="Label4" runat="server" Font-Size="Large" Text="Ciudad: "></asp:Label>
-    <asp:TextBox ID="TextBox5" runat="server"  Width="228px" Font-Size="Large"></asp:TextBox>
-    &nbsp;
-    <p></p>
-    <p></p>
-   <h8 style="width: 865px">.</h8>
-    <p></p>
-    <p></p>
-       <h9 style="width: 865px">
-         <asp:Label ID="Label5" runat="server" Font-Size="Large" Text="Fecha  Inicio: "></asp:Label>
-           <input type="text" id="datepicker" style="width: 171px; height: 21px"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Label ID="Label10" runat="server" Font-Size="Large" Text="Fecha Fin:"></asp:Label>
-                     <input type="text" id="datepicker1" style="width: 171px; height: 21px"/>
+     <p>
+         <asp:Label ID="Label5" runat="server" Font-Size="Small" Text="Fecha  Inicio: "></asp:Label>
+           &nbsp;<input type="text" id="datepicker" style="width: 148px; height: 21px"/>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Label ID="Label10" runat="server" Font-Size="Small" Text="Fecha Fin:"></asp:Label>
+                     &nbsp;&nbsp;&nbsp;
+                     <input type="text" id="datepicker1" style="width: 166px; height: 21px"/>
     <br />
-    <br />
-    <br />
-           </h9>
-       <h10 style="width: 865px">
-    <asp:Label ID="Label6" runat="server" Font-Size="Medium" Text="Direccion Correo: "></asp:Label>
-         <asp:TextBox ID="TextBox7" runat="server"  style="margin-top: 0" Width="237px" Font-Size="Medium">correo@hotmail.com</asp:TextBox>
-    <br />
-    </h10>
-    <p></p>
-    <p></p>
-
-    &nbsp;<h11><asp:Label ID="Label7" runat="server" Font-Size="Large" Text="Piso: "></asp:Label>
-        <select name="Piso" style="width: 61px">
-            <option value="30">....</option> 
-            <option value="1">1</option> 
-   <option value="2">2</option> 
-   <option value="3">3</option>
-   <option value="4">4</option> 
-   <option value="5">5</option> 
-   <option value="6">6</option> 
-   <option value="7">7</option> 
-   <option value="8">8</option> 
-   <option value="9">9</option>
-   <option value="10">10</option> 
-   <option value="11">11</option> 
-   <option value="12">12</option>
-   <option value="17">14</option> 
-   <option value="18">15</option> 
-   <option value="19">16</option>
-   <option value="20">17</option> 
-   <option value="21">18</option> 
-   <option value="22">19</option>
-    <option value="23">10</option>
-</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <h11> <fONT sIZE="3">
-        <asp:Label ID="Label13" runat="server" Font-Size="Large" Text="Habitación:"></asp:Label>
-        <select name="Piso0" style="width: 61px">
-            <option value="30">....</option> 
-            <option value="1">01</option> 
-   <option value="2">02</option> 
-   <option value="3">03</option>
-   <option value="4">04</option> 
-   <option value="5">05</option> 
-   <option value="6">06</option> 
-   
-</select>&nbsp;&nbsp;&nbsp;</h11>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </fONT>&nbsp;</h11><p></p>
-        
-    <br />
-
-    <br />
-
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         </p>
+      <p>
+    <asp:Label ID="Label6" runat="server" Font-Size="Small" Text="Correo electrónico:"></asp:Label>
+           <asp:TextBox ID="TextBox7" runat="server" Width="250px" Font-Size="Small"></asp:TextBox>
+         <br />
+       <p><asp:Label ID="Label7" runat="server" Font-Size="Small" Text="Piso: "></asp:Label>
+        &nbsp;
+         
+           <asp:DropDownList ID="DropDownList2" runat="server" Font-Size="Small">
+               <asp:ListItem Value="0">...</asp:ListItem>
+               <asp:ListItem>1</asp:ListItem>
+               <asp:ListItem>2</asp:ListItem>
+               <asp:ListItem>3</asp:ListItem>
+               <asp:ListItem>4</asp:ListItem>
+               <asp:ListItem>5</asp:ListItem>
+               <asp:ListItem>6</asp:ListItem>
+               <asp:ListItem>7</asp:ListItem>
+               <asp:ListItem>8</asp:ListItem>
+               <asp:ListItem>9</asp:ListItem>
+               <asp:ListItem>10</asp:ListItem>
+               <asp:ListItem>11</asp:ListItem>
+               <asp:ListItem>12</asp:ListItem>
+               <asp:ListItem>14</asp:ListItem>
+               <asp:ListItem>15</asp:ListItem>
+               <asp:ListItem>16</asp:ListItem>
+               <asp:ListItem>17</asp:ListItem>
+               <asp:ListItem>18</asp:ListItem>
+               <asp:ListItem>19</asp:ListItem>
+               <asp:ListItem>20</asp:ListItem>
+           </asp:DropDownList>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+        <asp:Label ID="Label13" runat="server" Font-Size="Small" Text="Habitación:"></asp:Label>
+        &nbsp;&nbsp;<asp:DropDownList ID="DropDownList3" runat="server" Font-Size="Small">
+               <asp:ListItem Value="0">...</asp:ListItem>
+               <asp:ListItem>1</asp:ListItem>
+               <asp:ListItem>2</asp:ListItem>
+               <asp:ListItem>3</asp:ListItem>
+               <asp:ListItem>4</asp:ListItem>
+               <asp:ListItem>5</asp:ListItem>
+               <asp:ListItem>6</asp:ListItem>
+           </asp:DropDownList>
+           &nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;</p>
+    <p>    
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <center><asp:Button ID="Button1" runat="server" Text="Reservar Ahora" BackColor="#6699FF" Font-Size="Large"  BorderColor="Yellow" BorderStyle="Solid" class="btn btn-primary btn-lg" OnClick="Button1_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button2" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Limpiar" BorderColor="Yellow" class="btn btn-primary btn-lg" OnClick="Button2_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button3" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Atras" BorderColor="Yellow" class="btn btn-primary btn-lg" OnClick="Button3_Click" />
-    </center>
+    </center> <p> 
        
 &nbsp;&nbsp;</h16>
-     <p></p>
-    
-    </h3>
-</asp:Content>
+     </asp:Content>
