@@ -195,6 +195,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contactanos.aspx" />
     <Content Include="Imagenes\indice0.jpeg" />
     <Content Include="Imagenes\índice1.jpeg" />
     <Content Include="Imagenes\índice2.jpeg" />
@@ -287,6 +288,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contactanos.aspx.cs">
+      <DependentUpon>Contactanos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactanos.aspx.designer.cs">
+      <DependentUpon>Contactanos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PagoTarjeta.aspx.cs">
       <DependentUpon>PagoTarjeta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
