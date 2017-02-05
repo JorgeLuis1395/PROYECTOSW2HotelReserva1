@@ -162,7 +162,7 @@ button,
 input,
 select,
 textarea {
-  margin: 0;
+  margin: 11px 0 0 0;
   font-family: inherit;
   font-size: 100%;
 }
@@ -532,6 +532,7 @@ h4,
 h5,
 .h5 {
   font-size: 14px;
+    width: 1055px;
 }
 
 h6,

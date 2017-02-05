@@ -53,7 +53,7 @@
                         <li><a runat="server" href="~/Promociones.aspx">Promociones</a></li>
                         <li><a runat="server" href="~/Servicios.aspx">Servicios</a></li>
                         <li><a runat="server" href="~/Reserva.aspx">Reserva Online</a></li>
-                        <li><a runat="server" href="~/Servicios.aspx">Contáctanos</a></li>
+                        <li><a runat="server" href="~/Contactanos.aspx">Contáctanos</a></li>
 
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
