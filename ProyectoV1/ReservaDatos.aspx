@@ -43,6 +43,7 @@
           
         </p>
      <p>
+<<<<<<< HEAD
           
          <asp:Label ID="Label16" runat="server" Text="Tipo de Identificación" Font-Size="Small"></asp:Label>
          :&nbsp;&nbsp;
@@ -93,6 +94,28 @@
      <p>
          <asp:Label ID="Label5" runat="server" Font-Size="Small" Text="Fecha  Inicio: "></asp:Label>
            &nbsp;<input type="text" id="datepicker" style="width: 168px; height: 21px"/>
+=======
+     <asp:Label ID="Label2" runat="server" Font-Size="Small" Text="Nombre:"></asp:Label>
+         <asp:TextBox ID="TextBox2" runat="server" Width="292px" ValidateRequestMode="Enabled" Font-Size="Small"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <asp:Label ID="Label8" runat="server" Font-Size="Small" Text="Apellido:"></asp:Label>&nbsp;<asp:TextBox ID="TextBox3" runat="server" Width="261px" Font-Size="Small"></asp:TextBox>
+        </p>
+     <p>
+         <asp:Label ID="Label1" runat="server" Font-Size="Small" Text="Teléfono: "></asp:Label>
+         <asp:TextBox ID="TextBox4" runat="server" Width="294px" Font-Size="Small"></asp:TextBox>
+         </p>
+        <p>
+    <asp:Label ID="Label3" runat="server" Font-Size="Small" Text="Dirección:"></asp:Label>
+        <asp:TextBox ID="TextBox5" runat="server" Width="296px" Font-Size="Small"></asp:TextBox>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Label ID="Label4" runat="server" Font-Size="Small" Text="Ciudad: "></asp:Label>
+            &nbsp;<asp:TextBox ID="TextBox6" runat="server" Width="172px" Font-Size="Small"></asp:TextBox>
+            &nbsp; &nbsp;
+    </p>
+     <p>
+         <asp:Label ID="Label5" runat="server" Font-Size="Small" Text="Fecha  Inicio: "></asp:Label>
+           &nbsp;<input type="text" id="datepicker" style="width: 148px; height: 21px"/>
+>>>>>>> refs/remotes/origin/master
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Label ID="Label10" runat="server" Font-Size="Small" Text="Fecha Fin:"></asp:Label>
                      &nbsp;&nbsp;&nbsp;
@@ -101,10 +124,14 @@
          </p>
       <p>
     <asp:Label ID="Label6" runat="server" Font-Size="Small" Text="Correo electrónico:"></asp:Label>
+<<<<<<< HEAD
            <asp:TextBox ID="txtCorreo" runat="server" Width="250px" Font-Size="Small"></asp:TextBox>
          &nbsp;&nbsp;&nbsp; <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="txtCorreo" ErrorMessage="Ingrese un correo electrónico correcto" Font-Names="Consolas" ValidationExpression="[\w]+@{1}[\w]+\.[a-z]{2,3}" ValidationGroup="Correo Electrónico" Display="Dynamic">Correo Incorrecto</asp:RegularExpressionValidator>
          &nbsp;
           <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtCorreo" Display="Dynamic" ErrorMessage="Correo Incorrecto">*</asp:RequiredFieldValidator>
+=======
+           <asp:TextBox ID="TextBox7" runat="server" Width="250px" Font-Size="Small"></asp:TextBox>
+>>>>>>> refs/remotes/origin/master
          <br />
        <p><asp:Label ID="Label7" runat="server" Font-Size="Small" Text="Piso: "></asp:Label>
         &nbsp;
@@ -131,8 +158,12 @@
                <asp:ListItem>19</asp:ListItem>
                <asp:ListItem>20</asp:ListItem>
            </asp:DropDownList>
+<<<<<<< HEAD
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="DropDownList2" Display="Dynamic" ErrorMessage="Escoja Un piso">*</asp:RequiredFieldValidator>
            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+=======
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>>>>>>> refs/remotes/origin/master
   
         <asp:Label ID="Label13" runat="server" Font-Size="Small" Text="Habitación:"></asp:Label>
         &nbsp;&nbsp;<asp:DropDownList ID="DropDownList3" runat="server" Font-Size="Small">
@@ -145,20 +176,32 @@
                <asp:ListItem>6</asp:ListItem>
            </asp:DropDownList>
            &nbsp;
+<<<<<<< HEAD
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="DropDownList3" Display="Dynamic" ErrorMessage="Escoja Una Habitación">*</asp:RequiredFieldValidator>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
      <p></p>
      <asp:ValidationSummary ID="ValidationSummary1" runat="server" Font-Size="Small" ForeColor="Red" />
      <p>&nbsp;&nbsp;&nbsp;
+=======
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>>>>>>> refs/remotes/origin/master
     &nbsp;</p>
     <p>    
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<<<<<<< HEAD
     <asp:Button ID="ButtonReservar" runat="server" Text="Reservar Ahora" BackColor="#6699FF" Font-Size="Large"  BorderColor="Yellow" BorderStyle="Solid" class="btn btn-primary btn-lg" OnClick="Button1_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
         <asp:Button ID="ButtonLimpiar" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Limpiar" BorderColor="Yellow" class="btn btn-primary btn-lg" OnClick="Button2_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="ButtonAtras" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Atras" BorderColor="Yellow" class="btn btn-primary btn-lg" OnClick="Button3_Click" />
      <p> 
+=======
+    <center><asp:Button ID="Button1" runat="server" Text="Reservar Ahora" BackColor="#6699FF" Font-Size="Large"  BorderColor="Yellow" BorderStyle="Solid" class="btn btn-primary btn-lg" OnClick="Button1_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Limpiar" BorderColor="Yellow" class="btn btn-primary btn-lg" OnClick="Button2_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button3" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Atras" BorderColor="Yellow" class="btn btn-primary btn-lg" OnClick="Button3_Click" />
+    </center> <p> 
+>>>>>>> refs/remotes/origin/master
        
 &nbsp;&nbsp;</h16>
      </asp:Content>

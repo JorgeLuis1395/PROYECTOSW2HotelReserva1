@@ -107,6 +107,7 @@ namespace ProyectoV1
             }
         }
 
+<<<<<<< HEAD
         internal void VerificarNumero(EventArgs e)
         {
             throw new NotImplementedException();
@@ -117,6 +118,8 @@ namespace ProyectoV1
             throw new NotImplementedException();
         }
 
+=======
+>>>>>>> refs/remotes/origin/master
         public bool verificarfecha(DateTime fecha1, DateTime fecha2)
         {
             if (fecha1 > fecha2)
