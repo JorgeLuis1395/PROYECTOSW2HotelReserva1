@@ -1,38 +1,23 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Reserva.aspx.cs" Inherits="ProyectoV1.Reserva" %>
+﻿<%@ Page Title="Reserva" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Reserva.aspx.cs" Inherits="ProyectoV1.Reserva" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <p></p><p></p>
      <h1>
          &nbsp;</h1>
     <h1>
-         Reserva Hotel Atacames 2
-     </h1>
+         Reservas Online</h1>
     <p>
          &nbsp;</p>
     <p>
         
         <table style="width: 1196px; height: 338px" > 
-           <tr> <center>
-               <td style="width: 308px"><FONT SIZE=5 color="Blue"><center>Habitación Simple</center></FONT>
+           <tr> 
+               <td style="width: 308px"><FONT SIZE=5 color="Blue">Habitación Simple</FONT>
                </td>&nbsp;
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td style="width: 313px"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td style="width: 968px"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-              <td style="width: 474px"><FONT SIZE=5 color="Blue"><center>Habitación Matrimonial</center></font></td>
-               </center>
+               <td style="width: 201px"></td>
+               
+              <td style="width: 474px"><FONT SIZE=5 color="Blue">Habitación Matrimonial</font></td>
+               
               </tr>
           <tr>
               <center>
@@ -43,22 +28,8 @@
                       <li><FONT SIZE=3>Ducha de Agua Fria/Caliente</FONT><br />
                   <li><FONT SIZE=3>Televisor</FONT><p></p>
               </td>
-              <td></td>
-              <td></td>
-              <td> </td>
-              <td></td>
-              <td></td>
-             <td> </td>
-              <td></td>
-              <td style="width: 313px"></td>
-              <td> </td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td style="width: 968px"> &nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td> &nbsp;</td>
-              <td>&nbsp;</td>
+              <td style="width: 201px"></td>
+              
               <td style="width: 474px"><FONT SIZE=3>Acogedora habitación con:</FONT><br />
                  <li><font size="3"> Baño privado</font><br />
                   <li><font size="3">Aire Acondicionado</font><br />
@@ -70,22 +41,8 @@
               </tr>
             <tr>
               <td style="width: 308px"> <asp:ImageButton runat="server" ImageUrl="~/Imagenes/índice1.jpeg" Width="306px" /></td>
-                <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-                <td></td>
-               <td></td>
-               <td></td>
-               <td style="width: 313px"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td style="width: 968px"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
+                <td style="width: 201px"></td>
+               
               <td style="width: 474px"> <asp:ImageButton runat="server" ImageUrl="~/Imagenes/índice.jpeg" /></td>
              
           </tr>
@@ -112,7 +69,7 @@
 </select>
         <asp:Label ID="Label2" runat="server" Text="unidades     "></asp:Label>
         <a href="ReservaDatos.aspx" class="btn btn-primary btn-lg">Reservar</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         <asp:Label ID="Label3" runat="server" Text="Agregar: "></asp:Label>
 &nbsp;<select name="Numero0" style="width: 43px">
@@ -138,43 +95,23 @@
         
         <br/>
         
-        <table>
+        <table style="width: 1196px; height: 338px" > 
              <tr>
-            <td><FONT SIZE=5 color="Blue">Habitación Triple</FONT></td>
-                 <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-                 <td style="width: 229px"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-                 <td style="width: 271px"></td>
-               <td></td>
-               <td></td>
-                 <td></td>
+            <td style="width: 308px"><FONT SIZE=5 color="Blue">Habitación Doble</FONT></td>
+                 <td style="width: 305px"></td>
+               
               <td><FONT SIZE=5 color="Blue">Habitación Triple</FONT>
               </td>
                   <tr>
               <center>
-              <td><FONT SIZE=3> Acogedora habitación con:</FONT><br />
+              <td style="width: 308px"><FONT SIZE=3> Acogedora habitación con:</FONT><br />
                  <li><FONT SIZE=3>Baño privado</FONT><br />
                   <li><FONT SIZE=3>Aire Acondicionado</FONT><li><FONT SIZE=3>Cama Matrimonial</FONT><br />
                   <li><FONT SIZE=3>Cama Simple</FONT><li><FONT SIZE=3>Ducha de Agua Fria/Caliente</FONT><br />
                   <li><FONT SIZE=3>Televisor</FONT><p></p>
               </td>
-              <td></td>
-              <td></td>
-              <td> </td>
-              <td></td>
-              <td style="width: 229px"></td>
-             <td> </td>
-              <td></td>
-              <td></td>
-              <td style="width: 271px"> </td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td> &nbsp;</td>
+              <td style="width: 305px"></td>
+              
               <td><FONT SIZE=3>Acogedora habitación con:</FONT><br />
                  <li><font size="3"> Baño privado</font><br />
                   <li><font size="3">Aire Acondicionado</font><br />
@@ -187,19 +124,9 @@
                     <p></p>
               </tr>
              <tr>
-                  <td> <asp:ImageButton runat="server" ImageUrl="~/Imagenes/índice2.jpeg" Width="307px" /></td>
-                 <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-                 <td style="width: 229px"></td>
-               <td></td>
-               <td></td>
-               <td></td>
-                 <td style="width: 271px"></td>
-               <td></td>
-               <td></td>
-               <td></td>
+                  <td style="width: 308px"> <asp:ImageButton runat="server" ImageUrl="~/Imagenes/índice2.jpeg" Width="307px" /></td>
+                 <td style="width: 305px"></td>
+               
                 <td> <asp:ImageButton runat="server" ImageUrl="~/Imagenes/índice3.jpeg" Height="156px" Width="254px" /></td>
              </tr>
         </table>
@@ -222,7 +149,7 @@
    <option value="12">12</option>
 </select>
         <asp:Label ID="Label6" runat="server" Text="unidades     "></asp:Label>
-        <a class="btn btn-primary btn-lg" href="ReservaDatos.aspx">Reservar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="btn btn-primary btn-lg" href="ReservaDatos.aspx">Reservar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         <asp:Label ID="Label7" runat="server" Text="Agregar: "></asp:Label>
 &nbsp;<select name="Numero2" style="width: 50px">

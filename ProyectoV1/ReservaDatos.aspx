@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Servicios" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ReservaDatos.aspx.cs" Inherits="ProyectoV1.ReservaDatos" %>
+﻿<%@ Page Title="Reservas" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ReservaDatos.aspx.cs" Inherits="ProyectoV1.ReservaDatos" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    
@@ -38,9 +38,21 @@
     </script>
     <h3>&nbsp;</h3>
     <h3><asp:Label ID="Label14" runat="server" Font-Size="X-Large" aling="center" Text="RESERVA DEL HOTEL ATACAMES 2: "></asp:Label>
-         
+    </h3>     
         <p>
           
+        </p>
+     <p>
+          <asp:Label ID="Label9" runat="server" Font-Size="Small" Text="Identificación: "></asp:Label>
+         
+            &nbsp;<asp:DropDownList ID="DropDownList4" runat="server" Font-Size="Small" Height="16px" Width="200px">
+              <asp:ListItem Value="0">Seleccione...</asp:ListItem>
+              <asp:ListItem Value="cedula">Cédula</asp:ListItem>
+              <asp:ListItem Value="pasaporte">Pasaporte</asp:ListItem>
+          </asp:DropDownList>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+         <asp:Label ID="Label11" runat="server" Font-Size="Small" Text="N° Identificación: "></asp:Label>&nbsp;<asp:TextBox ID="TextBox8" runat="server" Width="223px" Font-Size="Small"></asp:TextBox>
+        
         </p>
      <p>
      <asp:Label ID="Label2" runat="server" Font-Size="Small" Text="Nombre:"></asp:Label>
@@ -63,7 +75,7 @@
      <p>
          <asp:Label ID="Label5" runat="server" Font-Size="Small" Text="Fecha  Inicio: "></asp:Label>
            &nbsp;<input type="text" id="datepicker" style="width: 148px; height: 21px"/>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
     <asp:Label ID="Label10" runat="server" Font-Size="Small" Text="Fecha Fin:"></asp:Label>
                      &nbsp;&nbsp;&nbsp;
                      <input type="text" id="datepicker1" style="width: 166px; height: 21px"/>
@@ -116,11 +128,11 @@
     <p>    
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <center><asp:Button ID="Button1" runat="server" Text="Reservar Ahora" BackColor="#6699FF" Font-Size="Large"  BorderColor="Yellow" BorderStyle="Solid" class="btn btn-primary btn-lg" OnClick="Button1_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button2" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Limpiar" BorderColor="Yellow" class="btn btn-primary btn-lg" OnClick="Button2_Click" />
+    <asp:Button ID="Button1" runat="server" Text="Reservar Ahora" BackColor="#6699FF" Font-Size="Large"   BorderStyle="Solid" class="btn btn-primary btn-lg" OnClick="Button1_Click" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Limpiar"  class="btn btn-primary btn-lg" OnClick="Button2_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button3" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Atras" BorderColor="Yellow" class="btn btn-primary btn-lg" OnClick="Button3_Click" />
-    </center> <p> 
+        <asp:Button ID="Button3" runat="server" BackColor="#6699FF" Font-Size="Large" Text="Atras" class="btn btn-primary btn-lg" OnClick="Button3_Click" />
+     <p> 
        
 &nbsp;&nbsp;</h16>
      </asp:Content>
