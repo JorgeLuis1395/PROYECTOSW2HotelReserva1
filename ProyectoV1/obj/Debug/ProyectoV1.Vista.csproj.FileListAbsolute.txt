@@ -304,7 +304,6 @@ C:\Users\jaime\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1\bin\es\Micro
 C:\Users\jaime\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1\obj\Debug\ProyectoV1.Vista.csprojResolveAssemblyReference.cache
 C:\Users\jaime\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1\obj\Debug\ProyectoV1.dll
 C:\Users\jaime\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1\obj\Debug\ProyectoV1.pdb
-<<<<<<< HEAD
 C:\Users\JorgeLuis\Desktop\PROYECTOSW2HotelReserva1-master\ProyectoV1\bin\ApplicationInsights.config
 C:\Users\JorgeLuis\Desktop\PROYECTOSW2HotelReserva1-master\ProyectoV1\bin\roslyn\csc.exe
 C:\Users\JorgeLuis\Desktop\PROYECTOSW2HotelReserva1-master\ProyectoV1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -407,5 +406,3 @@ C:\Users\JorgeLuis\Desktop\PROYECTOSW2HotelReserva1-master\ProyectoV1\bin\es\Mic
 C:\Users\JorgeLuis\Desktop\PROYECTOSW2HotelReserva1-master\ProyectoV1\obj\Debug\ProyectoV1.Vista.csprojResolveAssemblyReference.cache
 C:\Users\JorgeLuis\Desktop\PROYECTOSW2HotelReserva1-master\ProyectoV1\obj\Debug\ProyectoV1.dll
 C:\Users\JorgeLuis\Desktop\PROYECTOSW2HotelReserva1-master\ProyectoV1\obj\Debug\ProyectoV1.pdb
-=======
->>>>>>> refs/remotes/origin/master
