@@ -1,0 +1,9 @@
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\bin\Debug\SisRes.Negocio.dll
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\bin\Debug\SisRes.Negocio.pdb
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\bin\Debug\SisRes.Datos.dll
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\bin\Debug\SisRes.Entidades.dll
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\bin\Debug\SisRes.Datos.pdb
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\bin\Debug\SisRes.Entidades.pdb
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\obj\Debug\ProyectoV1.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\obj\Debug\SisRes.Negocio.dll
+C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\Proyectov1.Negocio\obj\Debug\SisRes.Negocio.pdb

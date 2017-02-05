@@ -12,9 +12,10 @@
             <h2>Visión:</h2>
             <p class="lead"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-size: medium;">
                 Representar la hospitalidad del Hotel Atacames 2, preservando y promoviendo nuestros valores culturales, sociales y ambientales y creando experiencias únicas que motiven a nuestros huéspedes a volver.</span></span></p>
-            <p>
-                &nbsp;<a href="http://www.asp.net">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Reserva.aspx" class="btn btn-primary btn-lg">Reserve Ahora &raquo;</a>&nbsp;&nbsp;&nbsp; </p>
+           
         </div>
+     <p>
+                &nbsp;<center><a href="http://www.asp.net">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Reserva.aspx" class="btn btn-primary btn-lg">Reserve Ahora &raquo;</a>&nbsp;&nbsp;&nbsp;</center> </p>
         <div class="col-md-4">
             <p>
                 &nbsp;</p>

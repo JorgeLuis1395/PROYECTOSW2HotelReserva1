@@ -9,7 +9,7 @@
     <h3>Precios increiblemente baratos!!</h3>
     <p>Quienes conformamos Hotel Atacames 2 nos esmeramos por hacer de su estancia en nuestras instalaciones la mas placentera, es por esto que ofrecemos una promoción que incluye:
 <ul>
-    <li>    Dos noches de  hospedaje
+    <li>Dos noches de  hospedaje
     <li>Alimentacion (7 comidas)
     <li>Transporte ida y vuelta desde su destino
     <li>Paseo en Lancha
@@ -18,9 +18,6 @@
     <li>Coctel del bienvenida
     <li>Bebidas ilimitadas (en horarios especificos)
         </ul>
- Todo por solamente: 
-
-$85.00 por persona
-
-Los valores incluyen el 14%de IVA, la promoción es válida para grupos de 5 personas en adelante en habitaciones individuales, dobles y triples. &nbsp;</p>
+    <p>
+<h4>Todo por solamente: $85.00 por persona!!!</h4><br>Los valores incluyen el 14%de IVA<br>La promoción es válida para grupos de 5 personas en adelante en habitaciones individuales, dobles y triples. &nbsp;</p>
 </asp:Content>
