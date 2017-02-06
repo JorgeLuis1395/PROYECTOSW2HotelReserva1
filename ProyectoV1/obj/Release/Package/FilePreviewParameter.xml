@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="software2" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\JorgeLuis\\Desktop\\PROYECTOSW2HotelReserva1-master\\ProyectoV1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\JorgeLuis\\Desktop\\PROYECTOSW2HotelReserva1-master\\ProyectoV1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:software2.database.windows.net,1433;Initial Catalog=software2;User Id=software2@software2.database.windows.net;Password=software_2" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JorgeLuis\\Desktop\\PROYECTOSW2HotelReserva1-master\\ProyectoV1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="HotelConnectionString-Web.config Connection String" description="" value="Data Source=tcp:software2.database.windows.net,1433;Initial Catalog=software2;User Id=software2@software2.database.windows.net;Password=software_2" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JorgeLuis\\Desktop\\PROYECTOSW2HotelReserva1-master\\ProyectoV1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HotelConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

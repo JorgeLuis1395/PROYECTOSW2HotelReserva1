@@ -1,7 +1,0 @@
-C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1.Datos\bin\Debug\SisRes.Datos.dll
-C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1.Datos\bin\Debug\SisRes.Datos.pdb
-C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1.Datos\bin\Debug\SisRes.Entidades.dll
-C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1.Datos\bin\Debug\SisRes.Entidades.pdb
-C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1.Datos\obj\Debug\ProyectoV1.Datos.csprojResolveAssemblyReference.cache
-C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1.Datos\obj\Debug\SisRes.Datos.dll
-C:\Users\Robinson Huacho\Documents\GitHub\PROYECTOSW2HotelReserva1\ProyectoV1.Datos\obj\Debug\SisRes.Datos.pdb

@@ -107,6 +107,16 @@ namespace ProyectoV1
             }
         }
 
+        internal void VerificarNumero(EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void verificarTexto(EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool verificarfecha(DateTime fecha1, DateTime fecha2)
         {
             if (fecha1 > fecha2)

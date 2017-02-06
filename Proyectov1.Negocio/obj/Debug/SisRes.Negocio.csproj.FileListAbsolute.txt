@@ -1,9 +1,0 @@
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\bin\Debug\SisRes.Negocio.dll
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\bin\Debug\SisRes.Negocio.pdb
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\bin\Debug\SisRes.Datos.dll
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\bin\Debug\SisRes.Entidades.dll
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\bin\Debug\SisRes.Datos.pdb
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\bin\Debug\SisRes.Entidades.pdb
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\obj\Debug\SisRes.Negocio.csprojResolveAssemblyReference.cache
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\obj\Debug\SisRes.Negocio.dll
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Negocio\obj\Debug\SisRes.Negocio.pdb

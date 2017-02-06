@@ -9,6 +9,7 @@ namespace ProyectoV1
 {
     public partial class ReservaDatos : Page
     {
+        Validaciones v = new Validaciones();
         protected void Page_Load(object sender, EventArgs e)
         {
            
@@ -21,7 +22,16 @@ namespace ProyectoV1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("PagoTarjeta.aspx");
+            String cedula;
+            cedula = txtCedula.Text;
+            if (v.VerificarCedula(cedula))
+            {
+                Response.Redirect("PagoTarjeta.aspx");
+            }
+            else
+            {
+                mensaje.Text = "Cédula Incorrecta";
+            }
         }
 
         
@@ -56,12 +66,23 @@ namespace ProyectoV1
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            
+            Response.Redirect("PagoTarjeta.aspx");
         }
-        
+
         protected void TextBox13_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        protected void TextBox3_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void TextBox4_TextChanged(object sender, EventArgs e)
+        {
+           
+           
         }
     }
 }

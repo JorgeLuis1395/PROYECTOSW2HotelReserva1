@@ -1,6 +1,0 @@
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Entidades\bin\Debug\SisRes.Entidades.dll.config
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Entidades\bin\Debug\SisRes.Entidades.dll
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Entidades\bin\Debug\SisRes.Entidades.pdb
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Entidades\obj\Debug\SisRes.Entidades.csprojResolveAssemblyReference.cache
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Entidades\obj\Debug\SisRes.Entidades.dll
-C:\Users\JorgeLuis\Desktop\SisRes-master\Fuentes\SisRes.Entidades\obj\Debug\SisRes.Entidades.pdb
